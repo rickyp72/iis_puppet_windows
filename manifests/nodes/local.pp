@@ -22,6 +22,13 @@ include aspnetmvc4
   
 }
 
+node 'WGB01WA1019.worldwide.co.uk' inherits uatnode {
+include windows-iis
+include aspnetmvc4
+
+  
+}
+
 ########################################################
 #####        Windows test IIS servers               ####
 ########################################################
