@@ -10,7 +10,7 @@
 #####        Windows test IIS servers               ####
 ########################################################
 
-node 'WIN-IIS1.localdomain' inherits systestnode {
+node 'WIN-IIS1.localdomain' inherits devnode {
   
   # added by me to setup iis environment
 include windows-iis
