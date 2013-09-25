@@ -6,34 +6,10 @@
 
 
 ########################################################
-#####        WSpace Windows IIS servers             ####
-########################################################
-
-#node 'WGB01WA6005.bbc.worldwide.co.uk' inherits systestnode {
-#include windows-iis
-#include aspnetmvc4
-#  
-#}
-
-node 'WGB01WA7020.worldwide.bbc.co.uk' inherits uatnode {
-include windows-iis
-include aspnetmvc4
-
-  
-}
-
-node 'WGB01WA7019.worldwide.bbc.co.uk' inherits uatnode {
-include windows-iis
-include aspnetmvc4
-
-  
-}
-
-########################################################
 #####        Windows test IIS servers               ####
 ########################################################
 
-node 'WIN-IIS1.localdomain' inherits systestnode {
+node 'WIN-IIS1.localdomain' inherits devnode {
   
   # added by me to setup iis environment
 include windows-iis
