@@ -15,14 +15,14 @@
 #  
 #}
 
-node 'WGB01WA7020.worldwide.co.uk' inherits uatnode {
+node 'WGB01WA7020.worldwide.bbc.co.uk' inherits uatnode {
 include windows-iis
 include aspnetmvc4
 
   
 }
 
-node 'WGB01WA7019.worldwide.co.uk' inherits uatnode {
+node 'WGB01WA7019.worldwide.bbc.co.uk' inherits uatnode {
 include windows-iis
 include aspnetmvc4
 
