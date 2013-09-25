@@ -2,10 +2,6 @@
 # that might be powered up as local VMs in a test environment
 #
 # Created Sept 2013, Ricky Parkinson, BBC WW WebOps
-
-
-
-
 ########################################################
 #####        Windows test IIS servers               ####
 ########################################################
