@@ -7,8 +7,5 @@ node uatnode inherits basenode {
 #    environment  => $environment
 #    }
     
-        
-      
- 
   
 }
