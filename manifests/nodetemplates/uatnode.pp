@@ -1,8 +1,14 @@
 node uatnode inherits basenode {
   $environment = 'uat'
-  
-  Puppet::Client ["$location"] {
-    environment  => $environment
-    }
+   include windows-iis::filesrepo
+   
+   
+#  Puppet::Client ["$location"] {
+#    environment  => $environment
+#    }
+    
+        
+      
+ 
   
 }

@@ -1,6 +1,6 @@
 class windows-iis{
 		#include windows-iis::firewall
-		include windows-iis::files
+	#	include windows-iis::files
 
 	
 			dism {'IIS-WebServerRole': 

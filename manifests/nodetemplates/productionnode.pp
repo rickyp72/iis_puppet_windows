@@ -1,7 +1,8 @@
 node productionnode inherits basenode {
   $environment = 'production'
-  
-  Puppet::Client ["$location"] {
-    environment  => $environment
-    }
+   include windows-iis::filesrepo
+   
+#  Puppet::Client ["$location"] {
+#    environment  => $environment
+#    }
 }
