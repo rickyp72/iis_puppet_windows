@@ -1,6 +1,6 @@
 
-node uatnode inherits basenode {
-  $environment = 'uat'
+node devnode inherits basenode {
+  $environment = 'dev'
    include windows-iis::filesrepo
    
    
