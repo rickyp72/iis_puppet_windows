@@ -12,11 +12,10 @@
 #node 'WGB01WA6005.bbc.worldwide.co.uk' inherits systestnode {
 #include windows-iis
 #include aspnetmvc4
-#/(?i:^wgb-(a|b)-www-\d\d$)/
 #  
 #}
 
-node '/(?i:^wgb-(a|b)-www-\d\d$)/.worldwide.co.uk' inherits uatnode {
+node 'WGB01WA1020.worldwide.co.uk' inherits uatnode {
 include windows-iis
 include aspnetmvc4
 
