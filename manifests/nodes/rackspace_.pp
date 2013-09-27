@@ -58,3 +58,16 @@ include aspnetmvc4
 
   
 }
+
+node 'WGB01WA1019.worldwide.bbc.co.uk' inherits productionnode {
+include windows-iis
+include aspnetmvc4
+
+  
+}
+node 'WGB01WA1020.worldwide.bbc.co.uk' inherits productionnode {
+include windows-iis
+include aspnetmvc4
+
+  
+}
